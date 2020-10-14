@@ -1,0 +1,53 @@
+body{background-image: url(/ https://p1.pxfuel.com/preview/200/862/475/black-background-audi.jpg);}
+  nav{
+    background-color: black;
+    display:inline-block;
+    padding:5px;
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: flex-end;
+       }
+  a {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+    }  
+  a:hover{
+    background-color:white ;
+    color: black;
+  }   
+header{
+    background-image: url(https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F01.2F12.2F50bb789c-1560-41c0-892c-12303ede8b02.2Ejpeg/750x375/background-color/ffffff/quality/70/telephone-en-voiture-comment-sequiper-pour-garder-son-permis-1264932.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+  img{width: 200px;}
+  .promos{
+    width:100%
+        }
+  .promos-cartes{
+    display: flex;
+    justify-content: space-around;
+  }
+  .tarif-carte{background-color: plum;
+  text-align: center;}
+  .promo-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    
+          }
+  h4, h6{
+    border-style: groove;
+    border-radius:2px
+  }
+  .form{
+    border-style: solid;
+    border-radius: 5;
+    width: 200px;
+  }
